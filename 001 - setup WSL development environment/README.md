@@ -3,17 +3,18 @@
 
 You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11.
 
-* [Install Terminal](install%20Terminal.md)
+* [Install and configure Windows Terminal](install%20Terminal.md)
 
 # Install and configure WSL
 
 * [Install WSL](install%20WSL.md)
-* [Configure WSL](configure%20WSL.md)
+* [Configure WSL](todo.md)
+* [Configure Terminal for WSL](todo.md)
 
 # Install and configure Unix Shell
 
-* [Install ZSH in WSL](install%20ZSH%20in%20WSL.md)
-* [Configure ZSH in WSL](configure%20ZSH%20in%20WSL.md)
+* [Install ZSH in WSL](todo.md)
+* [Configure ZSH in WSL](todo.md)
 
 # Install and configure Tools
   

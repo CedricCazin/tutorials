@@ -17,19 +17,19 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 
 # Install and configure Tools
   
-* [Install and configure GIT in WSL]()
-* [Install and configure NodeJs with NVM in WSL]()
-* [Install and configure VS Code in WSL]()
+* [Install and configure GIT in WSL](todo.md)
+* [Install and configure NodeJs with NVM in WSL](todo.md)
+* [Install and configure VS Code in WSL](todo.md)
 
 # Others
 
-* [Install and configure Podman in WSL]()
-* [Install and configure Dosker CE in WSL]()
+* [Install and configure Podman in WSL](todo.md)
+* [Install and configure Dosker CE in WSL](todo.md)
 
 
-* [Install and configure Python in WSL (side by side)]()
-* [Install and configure Conda in WSL]()
-* [Install and configure Poetry in WSL]()
+* [Install and configure Python in WSL (side by side)](todo.md)
+* [Install and configure Conda in WSL](todo.md)
+* [Install and configure Poetry in WSL](todo.md)
 
 
 * For more installation guide please [Create an Issue](https://github.com/CedricCazin/tutorials/issues/new)

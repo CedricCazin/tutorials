@@ -32,5 +32,8 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 * [Install and configure Poetry in WSL](todo.md)
 
 
+* [Install and configure Terraform with TFN in WSL](todo.md)
+
+
 * For more installation guide please [Create an Issue](https://github.com/CedricCazin/tutorials/issues/new)
   

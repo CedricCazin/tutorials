@@ -71,3 +71,4 @@ For more information check Microsoft documentations:
 
 * [Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 * [Basic commands for WSL](https://learn.microsoft.com/en-us/windows/wsl/basic-commands)
+* [Training – Introduction to Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/training/modules/wsl-introduction)

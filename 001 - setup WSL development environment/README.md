@@ -5,15 +5,15 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 
 # Install and configure Terminal
 
-
-* [Install and configure Windows Terminal](install%20Terminal.md)
-* [Pimp Windows Terminal](install%20Terminal.md)
+* [Install and get started setting up Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install)
+* [Customize PowerShell prompt with OhMyPosh](https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
+* [Install Cascadia Code font](https://learn.microsoft.com/en-us/windows/terminal/cascadia-code)
 
 # Install and configure WSL
 
-* [Install WSL](install%20WSL.md)
-* [Configure WSL](todo.md)
-* [Configure Terminal for WSL](todo.md)
+* [Install WSL](install-WSL.md)
+* [Configure WSL](configure-WSL.md)
+* [Configure Terminal for WSL](configure-terminal-for-WSL.md)
 
 # Install and configure Unix Shell
 

@@ -7,7 +7,7 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 
 # Install and configure WSL
 
-* [Install WSL](Install%20WSL.md)
+* [Install WSL](install%20WSL.md)
 * [Configure WSL](configure%20WSL.md)
 
 # Install and configure Unix Shell

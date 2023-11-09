@@ -3,7 +3,10 @@
 
 You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11.
 
+# Install and configure WSL
+
 * [Install and configure Windows Terminal](install%20Terminal.md)
+* [Pimp Windows Terminal](install%20Terminal.md)
 
 # Install and configure WSL
 
@@ -15,6 +18,7 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 
 * [Install ZSH in WSL](todo.md)
 * [Configure ZSH in WSL](todo.md)
+* [Pimp ZSH in WSL](todo.md)
 
 # Install and configure Tools
   

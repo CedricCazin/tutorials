@@ -3,7 +3,8 @@
 
 You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11.
 
-# Install and configure WSL
+# Install and configure Terminal
+
 
 * [Install and configure Windows Terminal](install%20Terminal.md)
 * [Pimp Windows Terminal](install%20Terminal.md)

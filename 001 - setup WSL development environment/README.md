@@ -9,23 +9,31 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 * [Customize PowerShell prompt with OhMyPosh](https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
 * [Install Cascadia Code font](https://learn.microsoft.com/en-us/windows/terminal/cascadia-code)
 
-# Install and configure WSL
+# Install and configure a WSL distribution
 
 * [Install WSL](install-WSL.md)
 * [Configure WSL](configure-WSL.md)
 * [Configure Terminal for WSL](configure-terminal-for-WSL.md)
 
-# Install and configure Unix Shell
+# Install and configure Unix Shell on a WSL distribution
 
 * [Install ZSH in WSL](todo.md)
 * [Configure ZSH in WSL](todo.md)
 * [Pimp ZSH in WSL](todo.md)
 
-# Install and configure Tools
+# Install and configure Tools on a WSL distribution
   
 * [Install and configure GIT in WSL](todo.md)
 * [Install and configure NodeJs with NVM in WSL](todo.md)
 * [Install and configure VS Code in WSL](todo.md)
+
+# Backup/Restore a WSL distribution
+
+> [!NOTE]
+> When you are happy with a WSL distribution configuration (configurations, shells, tools, ...=
+> BACKUP IT to you can restore it quickly if anything happens
+
+* [Backup/Restore WSL distribution](backup-retore-WSL.md)
 
 # Others
 

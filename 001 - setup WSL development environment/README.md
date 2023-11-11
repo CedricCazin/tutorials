@@ -9,6 +9,11 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 * [Customize PowerShell prompt with OhMyPosh](https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
 * [Install Cascadia Code font](https://learn.microsoft.com/en-us/windows/terminal/cascadia-code)
 
+# Install and configure PowerShell NEWEST VERSION
+
+* [Install PowerShell](install-PS.md)
+* [Configure PowerShell](configure-PS.md)
+
 # Install and configure a WSL distribution
 
 * [Install WSL](install-WSL.md)

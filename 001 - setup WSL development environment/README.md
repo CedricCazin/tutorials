@@ -6,13 +6,10 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 # Install and configure Terminal
 
 * [Install and get started setting up Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install)
-* [Customize PowerShell prompt with OhMyPosh](https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
-* [Install Cascadia Code font](https://learn.microsoft.com/en-us/windows/terminal/cascadia-code)
 
 # Install and configure PowerShell NEWEST VERSION
 
-* [Install PowerShell](install-PS.md)
-* [Configure PowerShell](configure-PS.md)
+* [Install and configure PowerShell](install-configure-PS.md)
 
 # Install and configure a WSL distribution
 

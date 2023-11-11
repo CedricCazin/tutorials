@@ -46,7 +46,7 @@ It should look like this:
 * [Install Cascadia Code font](https://learn.microsoft.com/en-us/windows/terminal/cascadia-code)
 * [Install Terminal Icons](https://github.com/devblackops/Terminal-Icons#installation)
 
-![image](https://github.com/CedricCazin/tutorials/assets/26877462/f0cab309-c98d-4b4e-9ca7-93640d17fa08)
+![image](https://github.com/CedricCazin/tutorials/assets/26877462/33745a60-b054-4af5-a698-a75cf66a652e)
 
 # Install PowerShell Pluggins
 

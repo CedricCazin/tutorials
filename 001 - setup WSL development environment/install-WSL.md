@@ -59,6 +59,24 @@ To change the WSL version use the command:
 wsl --set-version <distribution> 2
 ```
 
+# Shutdown
+
+WSL take by default 50% of total memory on Windows or 8GB.
+You can change how much WSL memory will take on start, see [Configure WSL](configure-WSL.md).
+If you finished working on WSL, You might want to stop WSL to allocate this memory.
+
+It is like a computer you need to terminate either one/several distribution.
+
+```PowerShell
+wsl --terminate <distribution> 
+```
+ 
+Or sutdown the whole WSL
+
+```PowerShell
+wsl --shutdown
+```
+
 # Help
 
 To get help by the cli, type:

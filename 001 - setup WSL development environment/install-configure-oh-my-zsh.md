@@ -112,6 +112,11 @@ Add in the ~/.zshrc file the following line, restart the shell and follow the wi
 ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc.
 ```
 
+At any time if you want to change the configuration of the theme, just lauch:
+```sh
+p10k configure
+```
+
 For more information check Microsoft documentations:
 
 * [Powerlevel10k - oh-my-zsh - Installation](https://github.com/romkatv/powerlevel10k#oh-my-zsh)

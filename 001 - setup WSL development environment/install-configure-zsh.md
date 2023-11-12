@@ -23,8 +23,11 @@ For more information check Microsoft documentations:
 chsh -s $(which zsh)
 ```
 
+# Configure ZSH
+
 Restart the WSL, and ZSH will porpose a configuration workflow.
 
 ![image](https://github.com/CedricCazin/tutorials/assets/26877462/d2abccdd-0312-4280-bd55-4f9ecc600581)
 
-Select 0, we will configure ZSH with oh-my-zsh.
+In our case, Select 0.
+Configuration of ZSH will be done with oh-my-zsh.

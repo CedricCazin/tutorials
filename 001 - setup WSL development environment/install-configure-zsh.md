@@ -1,11 +1,7 @@
 
 # Prerequisites
 
-Update the distribution packages
-
-```sh
-sudo apt update && sudo apt upgrade
-```
+* [Update and Install packages in WSL distribution](update-install-packages-WSL.md)
 
 # Install ZSH
 

@@ -19,13 +19,15 @@ For more information check Microsoft documentations:
 
 # Set ZSH as default shell
 
+Use [chsh](https://manpages.ubuntu.com/manpages/focal/en/man1/chsh.1.html)
+
 ```sh
 chsh -s $(which zsh)
 ```
 
 # Configure ZSH
 
-Restart the WSL, and ZSH will porpose a configuration workflow.
+When there is no ~/.zshrc file, ZSH will porpose a configuration workflow.
 
 ![image](https://github.com/CedricCazin/tutorials/assets/26877462/d2abccdd-0312-4280-bd55-4f9ecc600581)
 

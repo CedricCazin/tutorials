@@ -16,6 +16,7 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 * [Install WSL](install-WSL.md)
 * [Configure WSL](configure-WSL.md)
 * [Configure Terminal for WSL](configure-terminal-for-WSL.md)
+* [Update and Install packages in WSL distribution](update-install-packages-WSL.md)
 
 # Install and configure Unix Shell on a WSL distribution
 

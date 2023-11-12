@@ -3,12 +3,10 @@
 
 You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11.
 
-# Install and configure Terminal
+# Install and configure Windows tools
 
+* [Install VS Code](https://code.visualstudio.com/download)
 * [Install and get started setting up Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install)
-
-# Install and configure PowerShell NEWEST VERSION
-
 * [Install and configure PowerShell](install-configure-PS.md)
 
 # Install and configure a WSL distribution

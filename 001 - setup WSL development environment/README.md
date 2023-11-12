@@ -20,9 +20,8 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 
 # Install and configure Unix Shell on a WSL distribution
 
-* [Install ZSH in WSL](todo.md)
-* [Configure ZSH in WSL](todo.md)
-* [Pimp ZSH in WSL](todo.md)
+* [Install and configure ZSH in WSL](install-configure-zsh.md)
+* [install and configure oh-my-zsh in WSL](install-configure-oh-my-zsh.md)
 
 # Install and configure Tools on a WSL distribution
   

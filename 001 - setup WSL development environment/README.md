@@ -23,7 +23,7 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 
 # Install and configure Tools on a WSL distribution
   
-* [Install and configure GIT in WSL](todo.md)
+* [Install and configure GIT in WSL](install-configure-git.md)
 * [Install and configure NodeJs with NVM in WSL](todo.md)
 * [Install and configure VS Code in WSL](todo.md)
 

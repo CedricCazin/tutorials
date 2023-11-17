@@ -13,6 +13,8 @@ sudo apt update && sudo apt upgrade
 
 # Install packages
 
+The packages to install depends en which tools you need to install, But this ones are commonly used.
+
 ```sh
 sudo apt-get install -y \
     git-all \

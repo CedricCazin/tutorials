@@ -40,7 +40,7 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 > When you are happy with a WSL distribution configuration (configurations, shells, tools, ...=
 > BACKUP IT to you can restore it quickly if anything happens
 
-* [🚧 Backup/Restore WSL distribution](backup-retore-WSL.md)
+* [Backup/Restore WSL distribution](backup-retore-WSL.md)
 
 # For more installation guide 
 

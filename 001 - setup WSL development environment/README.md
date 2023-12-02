@@ -3,6 +3,13 @@
 
 You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11.
 
+# Why
+
+Windows Subsytem Linux give you access to a Linux distribution on your Windows witjout the need to install VM, HyperV...
+There is 2 version of WSL, it is recommanded to use WSL 2:
+* WSL 2 install a linux kernel
+* WSL 1 emulate one.
+
 # Install and configure Windows tools
 
 * [Install VS Code](https://code.visualstudio.com/download)

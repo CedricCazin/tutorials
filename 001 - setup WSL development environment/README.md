@@ -7,6 +7,7 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 
 * [Install VS Code](https://code.visualstudio.com/download)
 * [Install and get started setting up Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install)
+* [Set up a custom prompt for PowerShell or WSL with Oh My Posh](https://github.com/CedricCazin/tutorials/blob/main/001%20-%20setup%20WSL%20development%20environment/README.md)
 * [Install and configure PowerShell](install-configure-PS.md)
 
 # Install and configure a WSL distribution

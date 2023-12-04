@@ -6,11 +6,12 @@ You must be running Windows 10 version 2004 and higher (Build 19041 and higher) 
 # Why
 
 The Windows Subsystem for Linux (WSL) lets you run a Linux environment, including command-line tools and applications, directly on Windows, without the overhead of a traditional virtual machine or dual boot setup.
+
 WSL especially helps web developers and those working with Bash and Linux-first tools (for example, Ruby and Python) to use their tools on Windows and ensure consistency between development and production environments.
 
 There is 2 version of WSL, it is recommanded to use WSL 2:
-* WSL 2 install a linux kernel
-* WSL 1 emulate one.
+* WSL 2 install a linux kernel inside a managed virtual machine (through a subset of Hyper-V features) that implements the full Linux kernel.
+* WSL 1 had lot of performance issue
 
 # Install and configure Windows tools
 

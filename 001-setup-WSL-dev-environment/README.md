@@ -11,7 +11,7 @@ WSL especially helps web developers and those working with Bash and Linux-first 
 
 There is 2 version of WSL, it is recommanded to use WSL 2:
 * WSL 2 install a linux kernel inside a managed virtual machine (through a subset of Hyper-V features) that implements the full Linux kernel.
-* WSL 1 had lot of performance issue
+* WSL 1 had lot of performance issue because not all syscalls were implemented
 
 # Install and configure Windows tools
 

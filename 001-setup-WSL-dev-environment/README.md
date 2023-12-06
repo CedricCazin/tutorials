@@ -17,15 +17,15 @@ There is 2 version of WSL, it is recommanded to use WSL 2:
 
 * [Install VS Code](https://code.visualstudio.com/download)
 * [Install and get started setting up Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install)
-* [Set up a custom prompt for PowerShell or WSL with Oh My Posh](https://github.com/CedricCazin/tutorials/blob/main/001%20-%20setup%20WSL%20development%20environment/README.md)
 * [Install and configure PowerShell](install-configure-PS.md)
+* [Set up a custom prompt for PowerShell or WSL with Oh My Posh](https://github.com/CedricCazin/tutorials/blob/main/001%20-%20setup%20WSL%20development%20environment/README.md)
 
 # Install and configure a WSL distribution
 
 * [Install WSL](install-WSL.md)
+* [Update and Install packages in WSL distribution](update-install-packages-WSL.md)
 * [Configure WSL](configure-WSL.md)
 * [Configure Terminal for WSL](configure-terminal-for-WSL.md)
-* [Update and Install packages in WSL distribution](update-install-packages-WSL.md)
 * [configure VS Code in WSL](todo.md)
 
 # Install and configure Unix Shell on a WSL distribution

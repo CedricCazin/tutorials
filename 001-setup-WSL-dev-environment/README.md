@@ -34,7 +34,15 @@ There is 2 version of WSL, it is recommanded to use WSL 2:
 * [install and configure oh-my-zsh in WSL](install-configure-oh-my-zsh.md)
 
 # Install and configure Tools on a WSL distribution
-  
+
+> [!NOTE]
+> When you are happy with a WSL distribution (configurations, shells, tools, ...),
+> BACKUP IT to you can restore it quickly if anything happens
+
+> [!WARNING]
+> If you plan to share the backup,
+> DO NOT create SSH KEYS or ser sensitive information before the backup
+ 
 * [Install and configure GIT in WSL](install-configure-git.md)
 * [Install and configure NodeJs with NVM in WSL](install-configure-nodejs-with-nvm.md)
 * [🚧 Install and configure docker in WSL](todo.md)
@@ -46,10 +54,6 @@ There is 2 version of WSL, it is recommanded to use WSL 2:
 * [🚧 Install and configure Terraform with TFN in WSL](todo.md)
 
 # Backup/Restore a WSL distribution
-
-> [!NOTE]
-> When you are happy with a WSL distribution configuration (configurations, shells, tools, ...=
-> BACKUP IT to you can restore it quickly if anything happens
 
 * [Backup/Restore WSL distribution](backup-retore-WSL.md)
 

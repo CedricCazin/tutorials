@@ -6,6 +6,12 @@ Git come already installed in Ubuntu, but you may wanto to update to the latest 
 sudo apt-get install git
 ```
 
+# Backup/Restore a WSL distribution
+
+> [!WARNING]
+> IF YOU PLAN TO BACKUP YOUR WSL FOR SHARING PURPOSE,
+> DO NOT CREATE THE SSH KEYS NOW, BUT DO IT AFTER THE BACKUP
+
 # Create a ssh key (for github)
 
 There is 2 ways to wotk with Github:

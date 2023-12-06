@@ -6,13 +6,17 @@ Git come already installed in Ubuntu, but you may wanto to update to the latest 
 sudo apt-get install git
 ```
 
-# Backup/Restore a WSL distribution
+You can change the text editor by Git (for interractive rebase...):
+
+```sh
+git config --global core.editor "code --wait"
+```
+
+# Create a ssh key (for github)
 
 > [!WARNING]
 > IF YOU PLAN TO BACKUP YOUR WSL FOR SHARING PURPOSE,
 > DO NOT CREATE THE SSH KEYS NOW, BUT DO IT AFTER THE BACKUP
-
-# Create a ssh key (for github)
 
 There is 2 ways to wotk with Github:
 * HTTPS
@@ -56,12 +60,6 @@ For more information check Github documentations:
 ```sh
 git config --global user.name "< your name here >"
 git config --global user.email "< your email here >"
-```
-
-# (optional) Change git 
-
-```sh
-git config --global core.editor "code --wait"
 ```
 
 For more information check Github documentations:

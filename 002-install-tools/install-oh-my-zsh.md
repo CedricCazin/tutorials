@@ -1,10 +1,19 @@
+# oh-my-zsh
 
-# Prerequisites
+Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
 
-* [Update and Install packages in WSL distribution](update-install-packages-WSL.md)
+## Prerequisites
+
 * [Install and configure ZSH in WSL](install-configure-zsh.md)
 
-# Install oh-my-zsh
+Update the distribution packages
+
+```sh
+# Update packages repository
+sudo apt update && sudo apt upgrade
+```
+
+## Install oh-my-zsh
 
 Install oh-my-zsh using curl, wget or other methods
 
@@ -14,11 +23,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ![image](https://github.com/CedricCazin/tutorials/assets/26877462/aad27023-d399-48ad-b19a-0d01eab33758)
 
-For more information check Microsoft documentations:
+### For more information
 
 * [oh-my-zsh - Basic Installation](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
 
-# Configure oh-my-zsh
+## Configure oh-my-zsh
 
 Open the ZSH configuration file with VS Code
 
@@ -26,7 +35,7 @@ Open the ZSH configuration file with VS Code
 code ~/.zshrc
 ```
 
-# Plugins
+## Plugins
 
 oh-my-zsh propose LOTS of plugins (thanks to the community)
 Just add them in the ~/.zshrc file.
@@ -43,11 +52,11 @@ plugins=(
 )
 ```
 
-For more information check Microsoft documentations:
+### For more information
 
 * [oh-my-zsh - plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
 
-# zsh-autosuggestions
+## zsh-autosuggestions
 
 git clone zsh-autosuggestions repo in you oh-my-zsh plugins folder.
 
@@ -65,11 +74,11 @@ plugins=( \
 )
 ```
 
-For more information check Microsoft documentations:
+### For more information
 
 * [zsh-autosuggestions - install for oh-my-zsh](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
-# zsh-syntax-highlighting
+## zsh-syntax-highlighting
 
 git clone zsh-autosuggestions repo in you oh-my-zsh plugins folder.
 
@@ -94,7 +103,7 @@ oh-my-zsh propose several themes, select one and set the name in the ~/.zshrc fi
 ZSH_THEME=robbyrussell
 ```
 
-For more information check Microsoft documentations:
+### For more information
 
 * [oh-my-zsh - Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
@@ -113,11 +122,11 @@ ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc.
 ```
 
 At any time if you want to change the configuration of the theme, just lauch:
+
 ```sh
 p10k configure
 ```
 
-For more information check Microsoft documentations:
+### For more information
 
 * [Powerlevel10k - oh-my-zsh - Installation](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
-

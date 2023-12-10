@@ -37,13 +37,12 @@ Your Powershell in Windows Terminal should look like this, nice 😉
 
 ![image](https://github.com/CedricCazin/tutorials/assets/26877462/33745a60-b054-4af5-a698-a75cf66a652e)
 
-## Install and configure a WSL distribution
+[Install WSL](/001-setup-WSL-dev-environment/install-WSL.md)
 
-* [Install WSL](install-WSL.md)
-* [Configure WSL](configure-WSL.md)
-* [Configure Terminal for WSL](configure-terminal-for-WSL.md)
-* [Configure VSCode for WSL](configure-vscode-for-wsl.md)
+[Configure WSL](/001-setup-WSL-dev-environment/configure-WSL.md)
 
-## Backup/Restore a WSL distribution
+[Configure Terminal for WSL](/001-setup-WSL-dev-environment/configure-terminal-for-WSL.md)
 
-* [Backup/Restore WSL distribution](backup-retore-WSL.md)
+[Configure VSCode for WSL](/001-setup-WSL-dev-environment/configure-vscode-for-WSL.md)
+
+[Backup/Restore WSL distribution](/001-setup-WSL-dev-environment/backup-retore-WSL.md)

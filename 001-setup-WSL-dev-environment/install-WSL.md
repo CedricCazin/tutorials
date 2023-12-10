@@ -82,7 +82,7 @@ To get help by the cli, type:
 wsl --help
 ```
 
-For more information check Microsoft documentations:
+## For more information
 
 * [Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 * [Basic commands for WSL](https://learn.microsoft.com/en-us/windows/wsl/basic-commands)

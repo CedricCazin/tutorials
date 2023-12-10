@@ -1,4 +1,4 @@
-# Install GIT
+# GIT
 
 ## Prerequisites
 
@@ -71,11 +71,6 @@ Add your ssh key to the ssh-agent
 ssh-add ~/.ssh/id_rsa
 ```
 
-For more information check Github documentations:
-
-* [Github Getting started with Git](https://docs.github.com/en/get-started/getting-started-with-git)
-* [Connecting to Github with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
-
 ## Setup your global info
 
 ```sh
@@ -83,6 +78,8 @@ git config --global user.name "< your name here >"
 git config --global user.email "< your email here >"
 ```
 
-## For more information check Github documentations
+## For more information
 
+* [Github Getting started with Git](https://docs.github.com/en/get-started/getting-started-with-git)
+* [Connecting to Github with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 * [Associating VS Code with Git](https://docs.github.com/en/get-started/getting-started-with-git/associating-text-editors-with-git#using-visual-studio-code-as-your-editor)

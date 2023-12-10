@@ -1,4 +1,4 @@
-# Install GIT
+# Docker CE
 
 ## Prerequisites
 
@@ -64,6 +64,6 @@ docker --help
 docker compose --help
 ```
 
-## For more information check Docker documentations
+## For more information
 
 * <https://docs.docker.com/engine/install/ubuntu/>

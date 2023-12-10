@@ -1,23 +1,23 @@
-
-# Prerequisites
-
-* [Update and Install packages in WSL distribution](update-install-packages-WSL.md)
-
-# What is ZSH
+# ZSH
 
 Zsh or Z shell is a Unix shell extended from extended Bourne shell.
 
-# Install ZSH
+## Prerequisites
+
+Update the distribution packages
+
+```sh
+# Update packages repository
+sudo apt update && sudo apt upgrade
+```
+
+## Install ZSH
 
 ```sh
 sudo apt install zsh
 ```
 
-For more information check Microsoft documentations:
-
-* [Install ZSH on WSL ubuntu](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#ubuntu-debian--derivatives-windows-10-wsl--native-linux-kernel-with-windows-10-build-1903)
-
-# Set ZSH as default shell
+## Set ZSH as default shell
 
 Use [chsh](https://manpages.ubuntu.com/manpages/focal/en/man1/chsh.1.html)
 
@@ -25,7 +25,7 @@ Use [chsh](https://manpages.ubuntu.com/manpages/focal/en/man1/chsh.1.html)
 chsh -s $(which zsh)
 ```
 
-# Configure ZSH
+## Configure ZSH
 
 When there is no ~/.zshrc file, ZSH will porpose a configuration workflow.
 
@@ -34,17 +34,15 @@ When there is no ~/.zshrc file, ZSH will porpose a configuration workflow.
 In our case, Select 0.
 Configuration of ZSH will be done with oh-my-zsh.
 
-# Common Shell Bonus
+## Common Shell Bonus
 
 * Shorthand are shorter (to type) of an option like -h for --help.
 * Everything is case sensitive.
-* ~ is for home
+* '~' is for home
+* '#' user is admin
+* '$' user is normal
 
-* # user is admin
-
-* $ user is normal
-
-## ZSH informations
+## ZSH information
 
 Like on bash the standard information are displayed
 
@@ -86,7 +84,7 @@ ls -la > myfile.txt
 npm run | grep ser
 ```
 
-# Chaining commands with conrol operators && and ||
+## Chaining commands with control operators && and ||
 
 Control operators help to continue commands based on the result of the first command.
 
@@ -97,3 +95,8 @@ export DB_CONECT_URI=lalalal && npm run serve
 # serve anly if the build is sucessfull
 npm run build || npm run serve
 ```
+
+## For more information
+
+* <https://doc.ubuntu-fr.org/zsh>
+* [Install ZSH on WSL ubuntu](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#ubuntu-debian--derivatives-windows-10-wsl--native-linux-kernel-with-windows-10-build-1903)

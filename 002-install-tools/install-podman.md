@@ -1,4 +1,6 @@
-# Install GIT
+# Podman
+
+Podman Desktop is an open source graphical tool enabling you to seamlessly work with containers and Kubernetes from your local environment.
 
 ## Prerequisites
 
@@ -51,6 +53,6 @@ podman --help
 podman compose --help
 ```
 
-## For more information check Docker documentations
+## For more information
 
 * <https://podman.io/docs/installation>

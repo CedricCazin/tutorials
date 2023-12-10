@@ -27,6 +27,10 @@ Here is an example of a configuration for a WSL distribution on a 32GB RAM and 1
 * Run NX cli, Angular cli, Nest cli, python, pandas, ...
 * Load large files
 
+### For more information
+
+* [Configuration setting for .wslconfig](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configuration-setting-for-wslconfig)
+
 ```env
 # Settings apply across all Linux distros running on WSL 2
 [wsl2]
@@ -44,21 +48,17 @@ memory=12GB # up to 16GB is needed
 # processors=X
 ```
 
-For more information check Microsoft documentation:
-
-* [Configuration setting for .wslconfig](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configuration-setting-for-wslconfig)
-
 ## per-distribution Configuration
 
 > [!WARNING]
 > BE CAREFUL WITH THIS CONFIGURATION !!!
 > Usually not modified, because it is fine tuned by Microsoft for a a specific WSL distribution.
 
-For more information check Microsoft documentation:
+Here is the settings used in the WSL Ubuntu-20.04 distribution:
+
+### For more information
 
 * [Configuration settings for wsl.conf](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configuration-settings-for-wslconf)
-
-Here is the settings used in the WSL Ubuntu-20.04 distribution:
 
 ```env
 # Automatically mount Windows drive when the distribution is launched

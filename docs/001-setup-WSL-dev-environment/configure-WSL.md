@@ -2,7 +2,7 @@
 
 There is txo different way to configure WSL
 
-* globally accross all WSL distributions
+* globally across all WSL distributions
 * on a per-distribution basis
 
 ## Global Configuration
@@ -15,12 +15,14 @@ code %UserProfile%/.wslconfig
 
 Many WSL2 (and Experimental) settings can be set, and the more important are the one to manage the processor and memory used by the WSL.
 By default WSL will take
+
 * The same number of logical processors on Windows
 * 50% of total memory on Windows or 8GB.
 
 Setting the processors and cpu properly is very important and depends of the loads of work you need to do in the WSL distribution.
 
-Here is an exemple of a configuration for a WSL distribution on a 32GB RAM and 16 Logical processor computer; which will:
+Here is an example of a configuration for a WSL distribution on a 32GB RAM and 16 Logical processor computer; which will:
+
 * Have several Podman containers (database, blod storage, queue, keycloak, ...)
 * Run NX cli, Angular cli, Nest cli, python, pandas, ...
 * Load large files
@@ -43,6 +45,7 @@ memory=12GB # up to 16GB is needed
 ```
 
 For more information check Microsoft documentation:
+
 * [Configuration setting for .wslconfig](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configuration-setting-for-wslconfig)
 
 ## per-distribution Configuration
@@ -52,9 +55,10 @@ For more information check Microsoft documentation:
 > Usually not modified, because it is fine tuned by Microsoft for a a specific WSL distribution.
 
 For more information check Microsoft documentation:
+
 * [Configuration settings for wsl.conf](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configuration-settings-for-wslconf)
 
-Here is the settings used in the WSL Ubuntu-20.04 distribution: 
+Here is the settings used in the WSL Ubuntu-20.04 distribution:
 
 ```env
 # Automatically mount Windows drive when the distribution is launched
@@ -91,5 +95,3 @@ default = DemoUser
 [boot]
 command = service docker start
 ```
-
-

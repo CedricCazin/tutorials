@@ -15,7 +15,7 @@ sudo apt install zsh
 
 For more information check Microsoft documentations:
 
-* [Install ZSH on WSL ubuntu ](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#ubuntu-debian--derivatives-windows-10-wsl--native-linux-kernel-with-windows-10-build-1903)
+* [Install ZSH on WSL ubuntu](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#ubuntu-debian--derivatives-windows-10-wsl--native-linux-kernel-with-windows-10-build-1903)
 
 # Set ZSH as default shell
 
@@ -34,22 +34,26 @@ When there is no ~/.zshrc file, ZSH will porpose a configuration workflow.
 In our case, Select 0.
 Configuration of ZSH will be done with oh-my-zsh.
 
-# Common Shell Bonus:
+# Common Shell Bonus
 
 * Shorthand are shorter (to type) of an option like -h for --help.
 * Everything is case sensitive.
 * ~ is for home
+
 * # user is admin
+
 * $ user is normal
 
-## ZSH informations:
+## ZSH informations
 
 Like on bash the standard information are displayed
+
 * the current path
 * the user
 * the computer
   
 But with ZSH other information can be found like:
+
 * the current OS as an icon
 * the git branch, number of files modified, number of commit to push, ...
 * the execution time of the latest command
@@ -57,7 +61,7 @@ But with ZSH other information can be found like:
 
 ![image](https://github.com/CedricCazin/tutorials/assets/26877462/02b8c090-9fc2-4294-89e7-fe8b54dbec2f)
 
-## To seek help on a command:
+## To seek help on a command
 
 ```sh
 # Manual page
@@ -84,7 +88,7 @@ npm run | grep ser
 
 # Chaining commands with conrol operators && and ||
 
-Conrol operators help to continue commands based on the result of the first command.
+Control operators help to continue commands based on the result of the first command.
 
 ```sh
 # export the env variable and serve

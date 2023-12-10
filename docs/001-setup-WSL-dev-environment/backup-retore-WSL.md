@@ -1,4 +1,6 @@
-# Export a WSL distribution
+# Backup WSL distribution
+
+## Export a WSL distribution
 
 Export a distribution as a VHD file.
 
@@ -6,7 +8,7 @@ Export a distribution as a VHD file.
 wsl --export --vhd <distribution name> <vhdx file path> 
 ```
 
-# Import a WSL distribution
+## Import a WSL distribution
 
 Import a dsitribution from a VHD file.
 
@@ -14,7 +16,7 @@ Import a dsitribution from a VHD file.
 wsl --import-in-place <distribution name> <vhdx file path>
 ```
 
-# Unregister a WSL distribution
+## Unregister a WSL distribution
 
 > [!CAUTION]
 > This will erase the existing distribution's file
@@ -24,7 +26,7 @@ wsl --import-in-place <distribution name> <vhdx file path>
 wsl --unregister <distribution name>
 ```
 
-# For more information check Microsoft documentations:
+## For more information check Microsoft documentations
 
 * [import and export a distribution](https://learn.microsoft.com/en-us/windows/wsl/basic-commands#import-and-export-a-distribution)
 * [Import a distribution in place](https://learn.microsoft.com/en-us/windows/wsl/basic-commands#import-a-distribution-in-place)

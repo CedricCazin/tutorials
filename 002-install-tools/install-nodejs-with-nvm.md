@@ -6,7 +6,7 @@ nvm is a version manager for node.js, designed to be installed per-user, and inv
 
 Update the distribution packages
 
-```sh
+```bash
 # Update packages repository
 sudo apt update && sudo apt upgrade
 
@@ -18,7 +18,7 @@ sudo apt curl -y
 
 nvm is a version manager for node.js, which help you install several versions of node.js and and switch between version as you wish.
 
-```sh
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 
 # or
@@ -30,7 +30,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 
 Nvm need to be present in your shell profile file (~/.bashrc, ~/.zshrc, ...)
 
-```sh
+```bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
@@ -41,7 +41,7 @@ After restarting your shel you can use nvm like so:
 
 ### List the available node.js version to be installed
 
-```sh
+```bash
 nvm ls-remote
 ```
 
@@ -51,7 +51,7 @@ List installed version, \
 Used and default versions, \
 available lts and the latest stable to be installed (if nvm ls-remote has been done prior).
 
-```sh
+```bash
 nvm list
 ```
 
@@ -59,7 +59,7 @@ nvm list
 
 ### Install node.js version
 
-```sh
+```bash
 # "node" is an alias for the latest version
 nvm install node
 
@@ -72,7 +72,7 @@ nvm install 20.9.0
 
 ### Use a node.js version
 
-```sh
+```bash
 # "node" is an alias for the latest version
 nvm use node
 

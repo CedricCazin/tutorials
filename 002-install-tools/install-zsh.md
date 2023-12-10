@@ -6,14 +6,14 @@ Zsh or Z shell is a Unix shell extended from extended Bourne shell.
 
 Update the distribution packages
 
-```sh
+```bash
 # Update packages repository
 sudo apt update && sudo apt upgrade
 ```
 
 ## Install ZSH
 
-```sh
+```bash
 sudo apt install zsh
 ```
 
@@ -21,7 +21,7 @@ sudo apt install zsh
 
 Use [chsh](https://manpages.ubuntu.com/manpages/focal/en/man1/chsh.1.html)
 
-```sh
+```bash
 chsh -s $(which zsh)
 ```
 
@@ -61,7 +61,7 @@ But with ZSH other information can be found like:
 
 ## To seek help on a command
 
-```sh
+```bash
 # Manual page
 man ls
 
@@ -76,7 +76,7 @@ npm --help
 
 Pipe is used to combine the output of a first command to another one.
 
-```sh
+```bash
 # save the output of the ls to a file
 ls -la > myfile.txt
 
@@ -88,7 +88,7 @@ npm run | grep ser
 
 Control operators help to continue commands based on the result of the first command.
 
-```sh
+```bash
 # export the env variable and serve
 export DB_CONECT_URI=lalalal && npm run serve
 

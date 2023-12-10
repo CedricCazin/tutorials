@@ -4,7 +4,7 @@
 
 Update the distribution packages
 
-```sh
+```bash
 sudo apt update && sudo apt upgrade
 ```
 
@@ -12,7 +12,7 @@ sudo apt update && sudo apt upgrade
 
 Git come already installed in Ubuntu, but you may want to update to the latest version.
 
-```sh
+```bash
 sudo apt-get install git-all
 ```
 
@@ -20,13 +20,13 @@ sudo apt-get install git-all
 
 To avoid problems in your diffs, you can configure Git to properly handle line endings.
 
-```sh
+```bash
 git config --global core.autocrlf true
 ```
 
 You can change the text editor by Git (for interactive rebase...):
 
-```sh
+```bash
 git config --global core.editor "code --wait"
 ```
 
@@ -45,13 +45,13 @@ There is 2 ways to wotk with Github:
 
 In WSL, there is a tool to generate keys
 
-```sh
+```bash
 ssh-keygen -t < rsa -b 4096  | ed25519 > -C < name of your key >
 ```
 
 Copy the ssh public key
 
-```sh
+```bash
 cat ~/.ssh/id_rsa.pub
 ```
 
@@ -61,19 +61,19 @@ Add it to your github settings SSH keys
 
 Check if the ssh-agent is running
 
-```sh
+```bash
 eval `ssh-agent -s`
 ```
 
 Add your ssh key to the ssh-agent
 
-```sh
+```bash
 ssh-add ~/.ssh/id_rsa
 ```
 
 ## Setup your global info
 
-```sh
+```bash
 git config --global user.name "< your name here >"
 git config --global user.email "< your email here >"
 ```

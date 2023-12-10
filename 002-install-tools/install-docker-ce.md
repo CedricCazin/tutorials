@@ -4,7 +4,7 @@
 
 Update the distribution packages
 
-```sh
+```bash
 # Update packages repository
 sudo apt update && sudo apt upgrade
 
@@ -14,7 +14,7 @@ sudo apt install apt-transport-https ca-certificates curl software-properties-co
 
 ## Add Docker repository
 
-```sh
+```bash
 # Add Docker repository GPG key
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
@@ -35,13 +35,13 @@ sudo apt-get update
 
 Install Docker by running:
 
-```sh
+```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
 Check that Docker is running:
 
-```sh
+```bash
 sudo systemctl status docker
 ```
 
@@ -49,14 +49,14 @@ sudo systemctl status docker
 
 Docker provides a convenience script at <https://get.docker.com/> to install Docker into development environments non-interactively.
 
-```sh
+```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh ./get-docker.sh --dry-run
 ```
 
 ## Using Docker and Docker Compose
 
-```sh
+```bash
 # Docker help
 docker --help
 

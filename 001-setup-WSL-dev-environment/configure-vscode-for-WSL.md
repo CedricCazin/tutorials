@@ -10,7 +10,7 @@ Install WSL Extension <https://marketplace.visualstudio.com/items?itemName=ms-vs
 
 From a WSL distribution (or Powershell), open VSCode:
 
-```sh
+```bash
 code .
 ```
 

@@ -6,7 +6,7 @@ Podman Desktop is an open source graphical tool enabling you to seamlessly work 
 
 Update the distribution packages
 
-```sh
+```bash
 # Update packages repository
 sudo apt update && sudo apt upgrade
 
@@ -18,14 +18,14 @@ sudo apt install apt-transport-https ca-certificates curl software-properties-co
 
 Install podman on Ubuntu 20.10 and newer
 
-```sh
+```bash
 sudo apt-get update
 sudo apt-get -y install podman
 ```
 
 Install podman on Ubuntu 20.09 and previous
 
-```sh
+```bash
 sudo mkdir -p /etc/apt/keyrings
 
 curl -fsSL "https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable/xUbuntu_$(lsb_release -rs)/Release.key" \
@@ -44,7 +44,7 @@ sudo apt-get -qq -y install podman
 
 ## Using Docker and Docker Compose
 
-```sh
+```bash
 # Podman help
 podman --help
 

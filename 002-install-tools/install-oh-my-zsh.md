@@ -8,7 +8,7 @@ Oh My Zsh is a delightful, open source, community-driven framework for managing 
 
 Update the distribution packages
 
-```sh
+```bash
 # Update packages repository
 sudo apt update && sudo apt upgrade
 ```
@@ -17,7 +17,7 @@ sudo apt update && sudo apt upgrade
 
 Install oh-my-zsh using curl, wget or other methods
 
-```sh
+```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
@@ -31,7 +31,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 Open the ZSH configuration file with VS Code
 
-```sh
+```bash
 code ~/.zshrc
 ```
 
@@ -60,7 +60,7 @@ plugins=(
 
 git clone zsh-autosuggestions repo in you oh-my-zsh plugins folder.
 
-```sh
+```bash
 git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 ```
@@ -82,7 +82,7 @@ plugins=( \
 
 git clone zsh-autosuggestions repo in you oh-my-zsh plugins folder.
 
-```sh
+```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
@@ -111,7 +111,7 @@ ZSH_THEME=robbyrussell
 
 git clone powerlevel10k repo in you oh-my-zsh themes folder and configure by following the wizard using this command line
 
-```sh
+```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
@@ -123,7 +123,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc.
 
 At any time if you want to change the configuration of the theme, just lauch:
 
-```sh
+```bash
 p10k configure
 ```
 

@@ -21,17 +21,16 @@ There is 2 version of WSL, it is recommanded to use WSL 2:
 
 Optional but highly recommended:
 
-* Windows Terminal
+* Windows Terminal \
   [Install and get started setting up Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install)
 
-* PowerShell
-  [Install PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows)
+* PowerShell \
+  [Install PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) \
   [Get PowerShell 7](https://github.com/PowerShell/PowerShell/blob/master/README.md#get-powershell)
 
-* Oh My Posh
-  [Customize your PowerShell prompt on Windows Terminal with Oh My Posh](https://learn.microsoft.com/windows/terminal/tutorials/custom-prompt-setup#customize-your-powershell-prompt-with-oh-my-posh)
-  [Install a Nerd font](https://learn.microsoft.com/en-us/windows/terminal/cascadia-code)
-<https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup#install-a-nerd-font>
+* Oh My Posh \
+  [Customize your PowerShell prompt with Oh My Posh](https://learn.microsoft.com/windows/terminal/tutorials/custom-prompt-setup#customize-your-powershell-prompt-with-oh-my-posh) \
+  [Install a Nerd font](https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup#install-a-nerd-font) \
   [Use Terminal-Icons to add missing folder or file icons](https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup#use-terminal-icons-to-add-missing-folder-or-file-icons)
 
 Your Powershell in Windows Terminal should look like this, nice 😉

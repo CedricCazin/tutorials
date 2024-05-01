@@ -3,36 +3,36 @@
     "path": "overview",
     "name": "Overview",
     "order": "0",
-    "content": "https://raw.githubusercontent.com/CedricCazin/CedricCazin/main/001-setup-WSL-dev-environment/README.md"
+    "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/001-setup-WSL-dev-environment/README.md"
   },
   {
     "path": "install",
     "name": "Install",
     "order": "1",
-    "content": "https://raw.githubusercontent.com/CedricCazin/CedricCazin/main/001-setup-WSL-dev-environment/install-WSL.md"
+    "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/001-setup-WSL-dev-environment/install-WSL.md"
   },
   {
     "path": "configure",
     "name": "Configure",
     "order": "2",
-    "content": "https://raw.githubusercontent.com/CedricCazin/CedricCazin/main/001-setup-WSL-dev-environment/configure-WSL.md"
+    "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/001-setup-WSL-dev-environment/configure-WSL.md"
   },
   {
     "path": "configure-terminal-for-WSL",
     "name": "Configure terminal for WSL",
     "order": "3",
-    "content": "https://raw.githubusercontent.com/CedricCazin/CedricCazin/main/001-setup-WSL-dev-environment/configure-terminal-for-WSL.md"
+    "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/001-setup-WSL-dev-environment/configure-terminal-for-WSL.md"
   },
   {
     "path": "configure-vscode-for-WSL",
     "name": "Configure vscode for WSL",
     "order": "4",
-    "content": "https://raw.githubusercontent.com/CedricCazin/CedricCazin/main/001-setup-WSL-dev-environment/configure-vscode-for-WSL.md"
+    "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/001-setup-WSL-dev-environment/configure-vscode-for-WSL.md"
   },
   {
     "path": "backup-restore",
     "name": "Backup & Restore",
     "order": "0",
-    "content": "https://raw.githubusercontent.com/CedricCazin/CedricCazin/main/001-setup-WSL-dev-environment/backup-retore-WSL.md"
+    "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/001-setup-WSL-dev-environment/backup-retore-WSL.md"
   }
 ]

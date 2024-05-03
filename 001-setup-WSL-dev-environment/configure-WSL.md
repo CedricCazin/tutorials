@@ -31,7 +31,7 @@ Here is an example of a configuration for a WSL distribution on a 32GB RAM and 1
 
 * [Configuration setting for .wslconfig](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configuration-setting-for-wslconfig)
 
-```env
+```ini
 # Settings apply across all Linux distros running on WSL 2
 [wsl2]
 
@@ -60,7 +60,7 @@ Here is the settings used in the WSL Ubuntu-20.04 distribution:
 
 * [Configuration settings for wsl.conf](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configuration-settings-for-wslconf)
 
-```env
+```ini
 # Automatically mount Windows drive when the distribution is launched
 [automount]
 

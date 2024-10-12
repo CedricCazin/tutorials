@@ -1,0 +1,97 @@
+[
+  {
+    "path": "shells",
+    "name": "Shells",
+    "order": "0",
+    "children": [
+      {
+        "path": "install-zsh",
+        "name": "zsh",
+        "order": "0",
+        "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/002-tools/zsh.md"
+      },
+      {
+        "path": "install-oh-my-zsh",
+        "name": "oh-my-zsh",
+        "order": "1",
+        "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/002-tools/oh-my-zsh.md"
+      }
+    ]
+  },
+  {
+    "path": "source-control",
+    "name": "Source Control",
+    "order": "1",
+    "children": [
+      {
+        "path": "git",
+        "name": "install-git",
+        "order": "0",
+        "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/002-tools/git.md"
+      }
+    ]
+  },
+  {
+    "path": "containerization",
+    "name": "Containerization",
+    "order": "2",
+    "children": [
+      {
+        "path": "docker-ce",
+        "name": "Docker-CE",
+        "order": "0",
+        "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/002-tools/docker-ce.md"
+      },
+      {
+        "path": "install-podman",
+        "name": "Podman",
+        "order": "1",
+        "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/002-tools/podman.md"
+      }
+    ]
+  },
+  {
+    "path": "saas-cli",
+    "name": "SASS CLI",
+    "order": "3",
+    "children": [
+      {
+        "path": "aws-cli",
+        "name": "AWS CLI",
+        "order": "0",
+        "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/002-tools/aws-cli.md"
+      },
+      {
+        "path": "azure-cli",
+        "name": "AZURE CLI",
+        "order": "1",
+        "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/002-tools/azure-cli.md"
+      },
+      {
+        "path": "kubectl",
+        "name": "Kubernetes CLI",
+        "order": "2",
+        "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/002-tools/kubernetes-cli.md"
+      }
+    ]
+  },
+  {
+    "path": "data-tools",
+    "name": "Data Tools",
+    "order": "4",
+    "children": [
+      {
+        "path": "install-nodejs-with-nvm",
+        "name": "Install NodeJs with nvm",
+        "order": "0",
+        "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/002-tools/nodejs-with-nvm.mdgpf"
+      },
+      {
+        "path": "jq",
+        "name": "jq",
+        "order": "1",
+        "content": "https://raw.githubusercontent.com/CedricCazin/tutorials/main/002-tools/jq.md"
+      }
+    ]
+  }
+]

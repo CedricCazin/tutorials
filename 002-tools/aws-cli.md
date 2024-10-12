@@ -1,4 +1,4 @@
 sudo apt-get install -y awscli
 
-optional 
+optional
 zsh plugin aws
